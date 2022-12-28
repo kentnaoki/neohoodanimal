@@ -27,6 +27,7 @@ const NavigationStyle = styled.div`
     }
     .nav-section a {
       display: block;
+      margin-bottom: 10px;
     }
   }
   .logo-section {
@@ -89,12 +90,18 @@ export const Navigation = () => {
           <img className="logo-img" src={logo} alt="logo" />
           <div className="social-media">
             <div className="link-container">
-              <a className="social-media-link" href="./">
+              <a
+                className="social-media-link"
+                href="https://twitter.com/Tabenomics_web3"
+              >
                 <img className="twitter-img" src={twitter} alt="twitter" />
               </a>
             </div>
             <div className="link-container">
-              <a className="social-media-link" href="./">
+              <a
+                className="social-media-link"
+                href="https://discord.gg/s2QhcNPyTe"
+              >
                 <img className="discord-img" src={discord} alt="discord" />
               </a>
             </div>
