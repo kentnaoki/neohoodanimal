@@ -14,7 +14,7 @@ const RoadmapStyle = styled.div`
   }
   .roadmap-item {
     display: flex;
-    margin: 0 10px;
+    margin: 20px 10px;
   }
   .roadmap-image {
     display: flex;
@@ -29,7 +29,7 @@ const RoadmapStyle = styled.div`
     margin: 0 10px;
   }
   .roadmap-paragraph {
-    text-align: justify;
+    text-align: center;
   }
   @media screen and (max-width: 959px) {
     .roadmap-content {
@@ -50,28 +50,26 @@ export const Roadmap = () => {
   const roadmapContent = [
     {
       id: 0,
-      header:
-        "本IPに対する無制限の商業利用を許可します（Permission for unrestricted commercial use of this IP）",
-      text: "あなたの所有するNFTにはIP利用の権利を所有しております。",
+      header: "Permission for unrestricted commercial use of this IP",
+      text: "Your NFT has a permission to use the IP.",
       image: cat,
     },
     {
       id: 1,
-      header: "アクセス制限（exclusive access）",
-      text: "あなたのNFTは食べのミクスでの体験へのアクセスを許可しています。",
+      header: "Exclusive access",
+      text: "Your NFT has access to Tabenomics.",
       image: cat,
     },
     {
       id: 2,
-      header: "著名人が集まるオフ会（Off-line meetings with celebrities）",
-      text: "あなたは日本のVIPが集まる会に参加する権利を持っています。（You have the right to attend a gathering of Japanese VIPs）",
+      header: "Off-line meetings with celebrities",
+      text: "You have the right to attend a gathering of Japanese VIPs",
       image: cat,
     },
     {
       id: 3,
-      header:
-        "日本の有名飲食店のWeb3化支援（Web3 support for famous Japanese restaurants）",
-      text: "我々は既存の飲食業界をWeb3領域まで引き上げることをミッションにしています。",
+      header: "Web3 support for famous Japanese restaurants",
+      text: "Our mission is to bring up the food industry to Web3.",
       image: cat,
     },
   ];
