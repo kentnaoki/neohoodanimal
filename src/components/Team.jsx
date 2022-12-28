@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import cat from "../img/test_image.jfif";
+import cat from "../img/cat.jpg";
 import twitter from "../img/twitter.png";
 
 const TeamStyle = styled.div`
