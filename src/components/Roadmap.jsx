@@ -31,6 +31,19 @@ const RoadmapStyle = styled.div`
   .roadmap-paragraph {
     text-align: justify;
   }
+  @media screen and (max-width: 959px) {
+    .roadmap-content {
+      display: block;
+    }
+    .roadmap-item {
+      margin: 50px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .roadmap-item {
+      display: block;
+    }
+  }
 `;
 
 export const Roadmap = () => {
