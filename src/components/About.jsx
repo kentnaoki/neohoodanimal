@@ -21,6 +21,25 @@ const AboutStyle = styled.div`
   img {
     width: 400px;
   }
+  @media screen and (max-width: 959px) {
+    .about-content {
+      margin: 0 50px;
+    }
+    img {
+      width: 350px;
+    }
+  }
+  @media screen and (max-width: 759px) {
+    .about-content {
+      display: block;
+    }
+    img {
+      width: 80vw;
+    }
+    .about-text {
+      margin: 50px auto;
+    }
+  }
 `;
 
 export const About = () => {

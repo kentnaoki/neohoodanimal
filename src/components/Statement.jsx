@@ -11,6 +11,11 @@ const StatementStyle = styled.div`
   p {
     text-align: justify;
   }
+  @media screen and (max-width: 999px) {
+    .statement-content {
+      margin: auto 50px;
+    }
+  }
 `;
 
 export const Statement = () => {

@@ -11,6 +11,18 @@ const NavigationStyle = styled.div`
     justify-content: center;
     padding: 1rem;
   }
+  @media screen and (max-width: 959px) {
+    height: auto;
+    .nav {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    height: auto;
+    .nav {
+      display: block;
+    }
+  }
   .logo-section {
     flex: 1;
     display: flex;

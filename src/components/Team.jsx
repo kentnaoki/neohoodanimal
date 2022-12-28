@@ -27,6 +27,20 @@ const TeamStyle = styled.div`
     height: 40px;
     border-radius: 30px;
   }
+  @media screen and (max-width: 859px) {
+    .team-content {
+      display: grid;
+      grid-template-rows: 33% 33% 33%;
+      grid-template-columns: 50% 50%;
+      max-width: 759px;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .team-content {
+      display: block;
+    }
+  }
 `;
 
 export const Team = () => {
