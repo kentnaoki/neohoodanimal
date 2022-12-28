@@ -13,16 +13,26 @@ const AppStyle = styled.div`
   font: "Sequel Sans Display Medium";
 `;
 
+const ContentStyle = styled.div`
+  margin: 0 auto;
+  h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+`;
+
 function App() {
   return (
     <AppStyle>
       <div className="App">
         <Navigation></Navigation>
         <TopPage></TopPage>
-        <About></About>
-        <Statement></Statement>
-        <Roadmap></Roadmap>
-        <Team></Team>
+        <ContentStyle>
+          <About></About>
+          <Statement></Statement>
+          <Roadmap></Roadmap>
+          <Team></Team>
+        </ContentStyle>
       </div>
     </AppStyle>
   );

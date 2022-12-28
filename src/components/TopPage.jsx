@@ -1,7 +1,11 @@
 import topImage from "../img/18_NEWCOLLECTION.jpg";
 import styled from "styled-components";
 
-const TopPageStyle = styled.div``;
+const TopPageStyle = styled.div`
+  img {
+    width: 100%;
+  }
+`;
 
 export const TopPage = () => {
   return (
