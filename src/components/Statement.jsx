@@ -9,7 +9,7 @@ const StatementStyle = styled.div`
     margin: 0 auto;
   }
   p {
-    text-align: justify;
+    text-align: center;
   }
   @media screen and (max-width: 999px) {
     .statement-content {
@@ -28,10 +28,10 @@ export const Statement = () => {
           give back to Japan
         </h3>
         <p>
-          Hikomaro is Legendary food-reporting comedian. He handles Web 3 for
-          the food and beverage industry.NEO HOOD ANIMAL are not just PFPs.This
-          NFT offers special benefits when multiple this NFT are collected and
-          destroyed And this NFT is also a special food community membership.We
+          Hikomaro is a Legendary food-reporting comedian. He handles Web 3 for
+          the food and beverage industry. NEO HOOD ANIMAL are not just PFPs.
+          This NFT offers special benefits when multiple NFTs are collected and
+          destroyed and this NFT is also a special food community membership. We
           are going to use Web3 to reform the restaurant industry with our
           wonderful friends with this NFT.
         </p>
