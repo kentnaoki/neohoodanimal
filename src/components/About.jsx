@@ -33,11 +33,14 @@ const AboutStyle = styled.div`
     .about-content {
       display: block;
     }
-    img {
-      width: 80vw;
-    }
     .about-text {
       margin: 50px auto;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    padding-top: 10px;
+    img {
+      width: 70vw;
     }
   }
 `;
