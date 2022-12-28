@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import cat from "../img/test_image.jfif";
+import cat from "../img/cat.jpg";
 
 const AboutStyle = styled.div`
   padding-top: 65px;
