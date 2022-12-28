@@ -16,10 +16,16 @@ const NavigationStyle = styled.div`
     .nav {
       display: block;
     }
+    .logo-section {
+      margin-bottom: 20px;
+    }
   }
   @media screen and (max-width: 480px) {
     height: auto;
     .nav {
+      display: block;
+    }
+    .nav-section a {
       display: block;
     }
   }
