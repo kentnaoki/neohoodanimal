@@ -2,6 +2,7 @@ import styled from "styled-components";
 import logo from "../img/logo.png";
 import twitter from "../img/twitter.png";
 import discord from "../img/discord.png";
+import { slide as Menu } from "react-burger-menu";
 
 const NavigationStyle = styled.div`
   height: 90px;
@@ -26,8 +27,7 @@ const NavigationStyle = styled.div`
       display: block;
     }
     .nav-section a {
-      display: block;
-      margin-bottom: 10px;
+      display: none;
     }
   }
   .logo-section {
@@ -82,6 +82,81 @@ const NavigationStyle = styled.div`
   }
 `;
 
+const MenuStyle = styled.div`
+  @media screen and (max-width: 480px) {
+    .bm-burger-button {
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      left: 36px;
+      top: 36px;
+    }
+
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+      background: #ffffffc5;
+    }
+
+    /* Color/shape of burger icon bars on hover*/
+    .bm-burger-bars-hover {
+      background: #ffffffc5;
+    }
+
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+    }
+
+    /* Color/shape of close button cross */
+    .bm-cross {
+      background: #bdc3c7;
+    }
+
+    /*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+    .bm-menu-wrap {
+      position: fixed;
+      height: 100%;
+    }
+
+    /* General sidebar styles */
+    .bm-menu {
+      background: #373a47;
+      padding: 2.5em 1.5em 0;
+      font-size: 1.15em;
+    }
+
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+      fill: #373a47;
+    }
+
+    /* Wrapper for item list */
+    .bm-item-list {
+      color: #b8b7ad;
+      padding: 0.8em;
+    }
+
+    /* Individual item */
+    .bm-item {
+      display: inline-block;
+      margin: 20px auto;
+    }
+
+    /* Styling of overlay */
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+`;
+
 export const Navigation = () => {
   return (
     <NavigationStyle>
@@ -113,6 +188,23 @@ export const Navigation = () => {
           <a href="#roadmap">ROADMAP</a>
           <a href="#team">TEAM</a>
         </div>
+
+        <MenuStyle>
+          <Menu width={"100%"}>
+            <a id="a" href="#about">
+              ABOUT
+            </a>
+            <a id="b" href="#statement">
+              STATEMENT
+            </a>
+            <a id="c" href="#roadmap">
+              ROADMAP
+            </a>
+            <a id="d" href="#team">
+              TEAM
+            </a>
+          </Menu>
+        </MenuStyle>
       </div>
     </NavigationStyle>
   );
