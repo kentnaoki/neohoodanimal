@@ -18,6 +18,9 @@ const AboutStyle = styled.div`
   .about-text {
     flex: 1;
   }
+  .p1 {
+    margin-bottom: 50px;
+  }
   img {
     width: 400px;
   }
@@ -56,7 +59,7 @@ export const About = () => {
           </div>
           <div className="about-text">
             <h2>Get back our food</h2>
-            <p>
+            <p className="p1">
               In 6015, the animals who have been preyed on, discarded, and
               mistreated by people started to raise thier voice. Hooded
               hard-punk animals finally rised in revolt in Tokyo.
