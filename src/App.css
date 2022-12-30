@@ -1,5 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Caveat&family=Kanit&family=Lobster&family=Righteous&family=Rubik+80s+Fade&display=swap");
 .App {
   text-align: center;
+  /* font-family: "Bitter", serif; */
+  font-family: "Caveat", cursive;
+  /* font-family: "Kanit", sans-serif; */
+  /* font-family: "Lobster", cursive; */
+  /* font-family: "Righteous", cursive; */
+  /* font-family: "Rubik 80s Fade", cursive; */
+  /* font-family: "Times New Roman", Times, serif; */
 }
 
 .App-logo {
