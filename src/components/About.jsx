@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import cat from "../img/cat.jpg";
+import dog from "../img/about_image.jpg";
 
 const AboutStyle = styled.div`
   padding-top: 65px;
@@ -52,9 +52,21 @@ export const About = () => {
         <h2>What is NEO HOOD ANIMAL?</h2>
         <div className="about-content">
           <div className="about-image-container">
-            <img src={cat} alt="cat" />
+            <img src={dog} alt="dog" />
           </div>
-          <div className="about-text">説明文</div>
+          <div className="about-text">
+            <h2>Get back our food</h2>
+            <p>
+              In 6015, the animals who have been preyed on, discarded, and
+              mistreated by people started to raise thier voice. Hooded
+              hard-punk animals finally rised in revolt in Tokyo.
+            </p>
+            <h2>Reform food</h2>
+            <p>
+              Every NEO HOOD ANIMAL asks the question to human beings. What is
+              food? <br></br>The journey has just started.
+            </p>
+          </div>
         </div>
       </div>
     </AboutStyle>

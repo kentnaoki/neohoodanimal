@@ -1,5 +1,8 @@
 import styled from "styled-components";
-import cat from "../img/cat.jpg";
+import IP from "../img/IP.jpg";
+import VIP from "../img/VIP.jpg";
+import access from "../img/access.jpg";
+import handshake from "../img/handshake.jpg";
 
 const RoadmapStyle = styled.div`
   padding-top: 65px;
@@ -52,25 +55,25 @@ export const Roadmap = () => {
       id: 0,
       header: "Permission for unrestricted commercial use of this IP",
       text: "Your NFT has a permission to use the IP.",
-      image: cat,
+      image: IP,
     },
     {
       id: 1,
       header: "Exclusive access",
       text: "Your NFT has access to Tabenomics.",
-      image: cat,
+      image: access,
     },
     {
       id: 2,
       header: "Off-line meetings with celebrities",
       text: "You have the right to attend a gathering of Japanese VIPs",
-      image: cat,
+      image: VIP,
     },
     {
       id: 3,
-      header: "Web3 support for famous Japanese restaurants",
+      header: "Web3 support for every Japanese restaurant",
       text: "Our mission is to bring up the food industry to Web3.",
-      image: cat,
+      image: handshake,
     },
   ];
 
