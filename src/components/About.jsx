@@ -58,13 +58,13 @@ export const About = () => {
             <img src={dog} alt="dog" />
           </div>
           <div className="about-text">
-            <h2>Get back our food</h2>
+            <h2>Get back our food industry</h2>
             <p className="p1">
               In 6015, the animals who have been preyed on, discarded, and
               mistreated by people started to raise thier voice. Hooded
               hard-punk animals finally rised in revolt in Tokyo.
             </p>
-            <h2>Reform food</h2>
+            <h2>Reform food industry</h2>
             <p>
               Every NEO HOOD ANIMAL asks the question to human beings. What is
               food? <br></br>The journey has just started.
