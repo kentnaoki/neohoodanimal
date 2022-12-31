@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import IP from "../img/IP.jpg";
-import VIP from "../img/VIP.jpg";
-import access from "../img/access.jpg";
-import handshake from "../img/handshake.jpg";
+import IP from "../img/IP_live.jpg";
+import VIP from "../img/VIP_live.jpg";
+import access from "../img/access_live.jpg";
+import handshake from "../img/handshake_live.jpg";
 
 const RoadmapStyle = styled.div`
   padding-top: 65px;
