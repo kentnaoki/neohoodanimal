@@ -5,8 +5,8 @@ import access from "../img/access_live.jpg";
 import handshake from "../img/handshake_live.jpg";
 
 const RoadmapStyle = styled.div`
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 85px;
+  padding-bottom: 85px;
 
   .roadmap-content {
     display: grid;

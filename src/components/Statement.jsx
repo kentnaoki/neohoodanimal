@@ -2,11 +2,14 @@ import styled from "styled-components";
 
 const StatementStyle = styled.div`
   background-color: #383838;
-  padding-top: 65px;
+  padding-top: 85px;
   padding-bottom: 65px;
   .statement-content {
     max-width: 600px;
     margin: 0 auto;
+  }
+  h2 {
+    margin-bottom: 50px;
   }
   p {
     text-align: center;
