@@ -8,9 +8,6 @@ const StatementStyle = styled.div`
     max-width: 600px;
     margin: 0 auto;
   }
-  h2 {
-    margin-bottom: 50px;
-  }
   p {
     text-align: center;
   }

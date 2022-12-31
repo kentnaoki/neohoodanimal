@@ -8,6 +8,9 @@ const RoadmapStyle = styled.div`
   padding-top: 85px;
   padding-bottom: 85px;
 
+  .header2 {
+    margin-bottom: 25px;
+  }
   .roadmap-content {
     display: grid;
     grid-template-rows: 50% 50%;
@@ -80,7 +83,7 @@ export const Roadmap = () => {
   return (
     <RoadmapStyle>
       <div id="roadmap">
-        <h2>ROADMAP</h2>
+        <h2 className="header2">ROADMAP</h2>
         <div className="roadmap-content">
           {roadmapContent.map((element) => {
             return (
