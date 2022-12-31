@@ -4,9 +4,8 @@ import dog from "../img/about_image.jpg";
 const AboutStyle = styled.div`
   padding-top: 85px;
   padding-bottom: 85px;
-
-  h2 {
-    margin-bottom: 50px;
+  .header2 {
+    margin-bottom: 25px;
   }
   .about-content {
     display: flex;
@@ -61,13 +60,13 @@ export const About = () => {
             <img src={dog} alt="dog" />
           </div>
           <div className="about-text">
-            <h2>Get back our food industry</h2>
+            <h2 className="header2">Get back our food industry</h2>
             <p className="p1">
               In 6015, the animals who have been preyed on, discarded, and
               mistreated by people started to raise thier voice. Hooded
               hard-punk animals finally rised in revolt in Tokyo.
             </p>
-            <h2>Reform food industry</h2>
+            <h2 className="header2">Reform food industry</h2>
             <p>
               Every NEO HOOD ANIMAL asks the question to human beings. What is
               food? <br></br>The journey has just started.
