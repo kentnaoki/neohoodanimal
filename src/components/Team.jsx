@@ -4,8 +4,11 @@ import twitter from "../img/twitter.png";
 
 const TeamStyle = styled.div`
   background-color: #383838;
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  h2 {
+    margin-bottom: 50px;
+  }
   .team-content {
     display: grid;
     grid-template-rows: 50% 50%;

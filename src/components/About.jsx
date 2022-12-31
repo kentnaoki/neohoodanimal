@@ -2,9 +2,12 @@ import styled from "styled-components";
 import dog from "../img/about_image.jpg";
 
 const AboutStyle = styled.div`
-  padding-top: 65px;
-  padding-bottom: 65px;
+  padding-top: 85px;
+  padding-bottom: 85px;
 
+  h2 {
+    margin-bottom: 50px;
+  }
   .about-content {
     display: flex;
     justify-content: center;
