@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StatementStyle = styled.div`
   background-color: #383838;
   padding-top: 85px;
-  padding-bottom: 65px;
+  padding-bottom: 85px;
   .statement-content {
     max-width: 600px;
     margin: 0 auto;
