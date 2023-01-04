@@ -3,7 +3,7 @@ import { About } from "./About";
 import { Navigation } from "./Navigation";
 import { Roadmap } from "./Roadmap";
 import { Statement } from "./Statement";
-import { Team } from "./Team";
+import { Partner } from "./Partner";
 import { TopPage } from "./TopPage";
 
 const ContentStyle = styled.div`
@@ -23,7 +23,7 @@ export const Home = () => {
         <About></About>
         <Statement></Statement>
         <Roadmap></Roadmap>
-        <Team></Team>
+        <Partner></Partner>
       </ContentStyle>
     </div>
   );

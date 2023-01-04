@@ -7,7 +7,7 @@ import { Home } from "./components/Home";
 const AppStyle = styled.div`
   background-color: black;
   color: white;
-  font: "Sequel Sans Display Medium";
+  /* font: "Sequel Sans Display Medium"; */
 `;
 
 function App() {

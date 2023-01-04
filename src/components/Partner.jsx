@@ -2,19 +2,19 @@ import styled from "styled-components";
 import cat from "../img/cat.jpg";
 import twitter from "../img/twitter.png";
 
-const TeamStyle = styled.div`
+const PartnerStyle = styled.div`
   background-color: #383838;
   padding-top: 85px;
   padding-bottom: 85px;
 
-  .team-content {
+  .partner-content {
     display: grid;
     grid-template-rows: 50% 50%;
     grid-template-columns: 33% 33% 33%;
     max-width: 940px;
     margin: 0 auto;
   }
-  .team-member {
+  .partner-member {
     margin: 10px auto;
   }
   .member-image img {
@@ -29,7 +29,7 @@ const TeamStyle = styled.div`
     border-radius: 30px;
   }
   @media screen and (max-width: 859px) {
-    .team-content {
+    .partner-content {
       display: grid;
       grid-template-rows: 33% 33% 33%;
       grid-template-columns: 50% 50%;
@@ -38,14 +38,14 @@ const TeamStyle = styled.div`
     }
   }
   @media screen and (max-width: 480px) {
-    .team-content {
+    .partner-content {
       display: block;
     }
   }
 `;
 
-export const Team = () => {
-  const teamContent = [
+export const Partner = () => {
+  const partnerContent = [
     {
       id: 0,
       image: cat,
@@ -85,19 +85,19 @@ export const Team = () => {
   ];
 
   return (
-    <TeamStyle>
-      <div id="team">
-        <h2>MEET THE TEAM</h2>
-        <div className="team-content">
-          {teamContent.map((element) => {
+    <PartnerStyle>
+      <div id="partner">
+        <h2>PARTNER</h2>
+        <div className="partner-content">
+          {partnerContent.map((element) => {
             return (
-              <div className="team-member" key={element.id}>
+              <div className="partner-member" key={element.id}>
                 <div className="member-image">
                   <img src={element.image} alt={element.name} />
                 </div>
                 <div className="member-name">{element.name}</div>
                 <div className="twitter-image">
-                  <a href="#team">
+                  <a href="#partner">
                     <img src={twitter} alt="twitter" />
                   </a>
                 </div>
@@ -106,6 +106,6 @@ export const Team = () => {
           })}
         </div>
       </div>
-    </TeamStyle>
+    </PartnerStyle>
   );
 };

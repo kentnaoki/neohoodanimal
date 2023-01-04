@@ -109,7 +109,7 @@ export const Navigation = () => {
           <Link to={`/mint/`}>MINT</Link>
           <a href="#statement">STATEMENT</a>
           <a href="#roadmap">ROADMAP</a>
-          <a href="#team">TEAM</a>
+          <a href="#partner">PARTNER</a>
         </div>
       </div>
     </NavigationStyle>
