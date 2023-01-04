@@ -2,7 +2,6 @@ import styled from "styled-components";
 import Ohta from "../img/OhtaPro.png";
 import MarkDoor from "../img/MarkDoor.jpg";
 import Pines from "../img/PINES.png";
-import twitter from "../img/twitter.png";
 
 const PartnerStyle = styled.div`
   background-color: #383838;
@@ -40,21 +39,6 @@ const PartnerStyle = styled.div`
       display: block;
     }
   }
-  .special-thanks {
-    margin: 75px auto;
-  }
-  .member {
-    display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin: 0 auto;
-    max-width: 940px;
-    gap: 20px 0;
-  }
-  .twitter-image-container img {
-    height: 40px;
-    border-radius: 30px;
-  }
 `;
 
 export const Partner = () => {
@@ -76,49 +60,6 @@ export const Partner = () => {
       image: Pines,
       name: "PINES",
       website: "https://pines.work/",
-    },
-  ];
-
-  const memberContent = [
-    {
-      id: 0,
-      name: "彦摩呂",
-      twitter: "https://twitter.com/hikomaro_mg",
-    },
-    {
-      id: 1,
-      name: "脇田mg",
-      twitter: "https://twitter.com/ohtaproinfo",
-    },
-    {
-      id: 2,
-      name: "あさぎ",
-      twitter: "https://twitter.com/lmvle",
-    },
-    {
-      id: 3,
-      name: "秋山佳菜",
-      twitter: "",
-    },
-    {
-      id: 4,
-      name: "MDゼウス",
-      twitter: "",
-    },
-    {
-      id: 5,
-      name: "MDマンチェスター",
-      twitter: "",
-    },
-    {
-      id: 6,
-      name: "KOC",
-      twitter: "",
-    },
-    {
-      id: 7,
-      name: "マツゴリ",
-      twitter: "https://twitter.com/mm0218_1",
     },
   ];
 
@@ -147,25 +88,6 @@ export const Partner = () => {
               </div>
             );
           })}
-        </div>
-        <div className="special-thanks">
-          <h2>Special Thanks</h2>
-          <div className="member">
-            {memberContent.map((e) => {
-              return (
-                <div className="member-each" id={e.id}>
-                  <div>{e.name}</div>
-                  <div className="twitter-image-container">
-                    {e.twitter !== "" && (
-                      <a href={e.twitter} target="_blank" rel="noreferrer">
-                        <img src={twitter} alt="twitter"></img>
-                      </a>
-                    )}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
         </div>
       </div>
     </PartnerStyle>
