@@ -11,7 +11,7 @@ const StatementStyle = styled.div`
   p {
     text-align: center;
   }
-  @media screen and (max-width: 999px) {
+  @media screen and (max-width: 759px) {
     .statement-content {
       margin: auto 50px;
     }

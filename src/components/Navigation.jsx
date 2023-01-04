@@ -2,6 +2,7 @@ import styled from "styled-components";
 import logo from "../img/logo.png";
 import twitter from "../img/twitter.png";
 import discord from "../img/discord.png";
+import { Link } from "react-router-dom";
 
 const NavigationStyle = styled.div`
   height: 90px;
@@ -105,9 +106,10 @@ export const Navigation = () => {
         </div>
         <div className="nav-section">
           <a href="#about">ABOUT</a>
+          <Link to={`/mint/`}>MINT</Link>
           <a href="#statement">STATEMENT</a>
           <a href="#roadmap">ROADMAP</a>
-          <a href="#team">TEAM</a>
+          <a href="#partner">PARTNER</a>
         </div>
       </div>
     </NavigationStyle>

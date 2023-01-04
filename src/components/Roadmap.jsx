@@ -43,11 +43,16 @@ const RoadmapStyle = styled.div`
     }
     .roadmap-item {
       margin: 50px;
+      justify-content: center;
+    }
+    .roadmap-text {
+      flex: 1;
     }
   }
   @media screen and (max-width: 480px) {
     .roadmap-item {
       display: block;
+      margin: 50px;
     }
   }
 `;
