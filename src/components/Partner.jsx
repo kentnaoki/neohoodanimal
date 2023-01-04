@@ -157,7 +157,7 @@ export const Partner = () => {
                   <div>{e.name}</div>
                   <div className="twitter-image-container">
                     {e.twitter !== "" && (
-                      <a href={e.twitter}>
+                      <a href={e.twitter} target="_blank" rel="noreferrer">
                         <img src={twitter} alt="twitter"></img>
                       </a>
                     )}
