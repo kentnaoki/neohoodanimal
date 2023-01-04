@@ -17,8 +17,9 @@ const PartnerStyle = styled.div`
     justify-content: center;
   }
   .partner-member {
-    margin: 10px auto;
+    flex: 1;
   }
+
   .partner-image img {
     width: 230px;
     height: auto;
@@ -39,7 +40,20 @@ const PartnerStyle = styled.div`
       display: block;
     }
   }
+  .special-thanks {
+    margin: 75px auto;
+  }
   .member {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0 auto;
+    max-width: 940px;
+    gap: 20px 0;
+  }
+  .twitter-image-container img {
+    height: 40px;
+    border-radius: 30px;
   }
 `;
 
@@ -69,42 +83,42 @@ export const Partner = () => {
     {
       id: 0,
       name: "彦摩呂",
-      twitter: "",
+      twitter: "https://twitter.com/hikomaro_mg",
     },
     {
       id: 1,
-      name: "彦摩呂",
-      twitter: "",
+      name: "脇田mg",
+      twitter: "https://twitter.com/ohtaproinfo",
     },
     {
       id: 2,
-      name: "彦摩呂",
-      twitter: "",
+      name: "あさぎ",
+      twitter: "https://twitter.com/lmvle",
     },
     {
       id: 3,
-      name: "彦摩呂",
+      name: "秋山佳菜",
       twitter: "",
     },
     {
       id: 4,
-      name: "彦摩呂",
+      name: "MDゼウス",
       twitter: "",
     },
     {
       id: 5,
-      name: "彦摩呂",
+      name: "MDマンチェスター",
       twitter: "",
     },
     {
       id: 6,
-      name: "彦摩呂",
+      name: "KOC",
       twitter: "",
     },
     {
       id: 7,
-      name: "彦摩呂",
-      twitter: "",
+      name: "マツゴリ",
+      twitter: "https://twitter.com/mm0218_1",
     },
   ];
 
@@ -142,9 +156,11 @@ export const Partner = () => {
                 <div className="member-each" id={e.id}>
                   <div>{e.name}</div>
                   <div className="twitter-image-container">
-                    <a href={e.twitter}>
-                      <img src={twitter} alt="twitter"></img>
-                    </a>
+                    {e.twitter !== "" && (
+                      <a href={e.twitter}>
+                        <img src={twitter} alt="twitter"></img>
+                      </a>
+                    )}
                   </div>
                 </div>
               );
