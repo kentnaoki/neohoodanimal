@@ -5,6 +5,7 @@ import { Roadmap } from "./Roadmap";
 import { Statement } from "./Statement";
 import { Partner } from "./Partner";
 import { TopPage } from "./TopPage";
+import { SpecialThanks } from "./SpecialThanks";
 
 const ContentStyle = styled.div`
   margin: 0 auto;
@@ -24,6 +25,7 @@ export const Home = () => {
         <Statement></Statement>
         <Roadmap></Roadmap>
         <Partner></Partner>
+        <SpecialThanks></SpecialThanks>
       </ContentStyle>
     </div>
   );
