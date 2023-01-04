@@ -16,8 +16,8 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path={`/mint/`} element={<Mint />} />
+            <Route path="/ppp/" element={<Home />} />
+            <Route path={`/ppp/mint/`} element={<Mint />} />
           </Routes>
         </BrowserRouter>
       </div>

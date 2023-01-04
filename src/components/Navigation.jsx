@@ -106,7 +106,7 @@ export const Navigation = () => {
         </div>
         <div className="nav-section">
           <a href="#about">ABOUT</a>
-          <Link to={`/mint/`}>MINT</Link>
+          <Link to={`/ppp/mint/`}>MINT</Link>
           <a href="#statement">STATEMENT</a>
           <a href="#roadmap">ROADMAP</a>
           <a href="#partner">PARTNER</a>
