@@ -94,7 +94,7 @@ const NavigationStyle = styled.div`
   }
 `;
 
-export const Navigation = () => {
+export const NavigationJP = () => {
   return (
     <NavigationStyle>
       <div className="nav">
@@ -126,7 +126,7 @@ export const Navigation = () => {
           <a href="#roadmap">ROADMAP</a>
           <a href="#partner">PARTNER</a>
           <button className="button-japanese">
-            <Link to={`/ppp/jp/`}>日本語版</Link>
+            <Link to={`/ppp/`}>English</Link>
           </button>
         </div>
       </div>
