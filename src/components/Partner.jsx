@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import cat from "../img/cat.jpg";
+import Ohta from "../img/OhtaPro.png";
+import MarkDoor from "../img/MarkDoor.jpg";
+import Pines from "../img/PINES.png";
 import twitter from "../img/twitter.png";
 
 const PartnerStyle = styled.div`
@@ -8,39 +10,36 @@ const PartnerStyle = styled.div`
   padding-bottom: 85px;
 
   .partner-content {
-    display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 33% 33% 33%;
+    display: flex;
     max-width: 940px;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
   }
   .partner-member {
     margin: 10px auto;
   }
-  .member-image img {
+  .partner-image img {
     width: 230px;
     height: auto;
   }
-  .member-name {
+  .partner-name {
     font-size: 25px;
   }
-  .twitter-image img {
-    height: 40px;
-    border-radius: 30px;
+  .partner-link {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
   }
-  @media screen and (max-width: 859px) {
-    .partner-content {
-      display: grid;
-      grid-template-rows: 33% 33% 33%;
-      grid-template-columns: 50% 50%;
-      max-width: 759px;
-      margin: 0 auto;
-    }
+  .partner-link:hover {
+    color: red;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 950px) {
     .partner-content {
       display: block;
     }
+  }
+  .member {
   }
 `;
 
@@ -48,38 +47,63 @@ export const Partner = () => {
   const partnerContent = [
     {
       id: 0,
-      image: cat,
-      name: "NIKO24(FOUNDER)",
+      image: Ohta,
+      name: "太田プロダクション",
+      website: "https://www.ohtapro.co.jp/",
+    },
+    {
+      id: 1,
+      image: MarkDoor,
+      name: "Mark Door Inc.",
+      website: "https://markdoor.net/",
+    },
+    {
+      id: 2,
+      image: Pines,
+      name: "PINES",
+      website: "https://pines.work/",
+    },
+  ];
+
+  const memberContent = [
+    {
+      id: 0,
+      name: "彦摩呂",
       twitter: "",
     },
     {
       id: 1,
-      image: cat,
-      name: "TOMO(MANAGER)",
+      name: "彦摩呂",
       twitter: "",
     },
     {
       id: 2,
-      image: cat,
-      name: "0xSumo(DEV)",
+      name: "彦摩呂",
       twitter: "",
     },
     {
       id: 3,
-      image: cat,
-      name: "SHOWGO(PLANNER)",
+      name: "彦摩呂",
       twitter: "",
     },
     {
       id: 4,
-      image: cat,
-      name: "Ryo(RESEARCHER)",
+      name: "彦摩呂",
       twitter: "",
     },
     {
       id: 5,
-      image: cat,
-      name: "Renox(MANAGER)",
+      name: "彦摩呂",
+      twitter: "",
+    },
+    {
+      id: 6,
+      name: "彦摩呂",
+      twitter: "",
+    },
+    {
+      id: 7,
+      name: "彦摩呂",
       twitter: "",
     },
   ];
@@ -92,18 +116,40 @@ export const Partner = () => {
           {partnerContent.map((element) => {
             return (
               <div className="partner-member" key={element.id}>
-                <div className="member-image">
+                <div className="partner-image">
                   <img src={element.image} alt={element.name} />
                 </div>
-                <div className="member-name">{element.name}</div>
-                <div className="twitter-image">
-                  <a href="#partner">
-                    <img src={twitter} alt="twitter" />
+                <div className="partner-name">{element.name}</div>
+                <div className="partner-link-container">
+                  <a
+                    className="partner-link"
+                    href={element.website}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    @
                   </a>
                 </div>
               </div>
             );
           })}
+        </div>
+        <div className="special-thanks">
+          <h2>Special Thanks</h2>
+          <div className="member">
+            {memberContent.map((e) => {
+              return (
+                <div className="member-each" id={e.id}>
+                  <div>{e.name}</div>
+                  <div className="twitter-image-container">
+                    <a href={e.twitter}>
+                      <img src={twitter} alt="twitter"></img>
+                    </a>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </PartnerStyle>
