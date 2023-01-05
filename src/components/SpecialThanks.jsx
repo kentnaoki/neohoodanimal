@@ -13,12 +13,41 @@ const SpecialThanksStyle = styled.div`
     max-width: 940px;
     row-gap: 20px;
   }
+  @media screen and (max-width: 959px) {
+    .member {
+      grid-template-rows: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+    }
+  }
+  @media screen and (max-width: 649px) {
+    .member {
+      grid-template-rows: 25% 25% 25% 25%;
+      grid-template-columns: 50% 50%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .member {
+      display: block;
+    }
+    .member-each {
+      display: flex;
+      width: 80vw;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+    .member-name {
+      flex: 1;
+    }
+  }
   .member-name {
     font-size: 20px;
     height: 30px;
   }
   .twitter-image-container {
-    margin: 10px auto;
+    margin: 5px auto;
+    width: 40px;
+    height: 40px;
   }
   .twitter-image-container img {
     height: 40px;
@@ -46,22 +75,22 @@ export const SpecialThanks = () => {
     {
       id: 3,
       name: "秋山佳菜",
-      twitter: "",
+      twitter: null,
     },
     {
       id: 4,
       name: "MDゼウス",
-      twitter: "",
+      twitter: null,
     },
     {
       id: 5,
       name: "MDマンチェスター",
-      twitter: "",
+      twitter: null,
     },
     {
       id: 6,
       name: "KOC",
-      twitter: "",
+      twitter: null,
     },
     {
       id: 7,
@@ -80,7 +109,7 @@ export const SpecialThanks = () => {
               <div className="member-each" id={e.id}>
                 <div className="member-name">{e.name}</div>
                 <div className="twitter-image-container">
-                  {e.twitter !== "" && (
+                  {e.twitter !== null && (
                     <a href={e.twitter} target="_blank" rel="noreferrer">
                       <img src={twitter} alt="twitter"></img>
                     </a>
