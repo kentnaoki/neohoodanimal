@@ -23,16 +23,14 @@ const PartnerStyle = styled.div`
     gap: 1rem;
   }
   .partner-image {
-    height: 200px;
+    height: 150px;
     width: 230px;
     position: relative;
-  }
-  .partner-image a {
   }
   .partner-image img {
     position: absolute;
     max-width: 230px;
-    max-height: 200px;
+    max-height: 150px;
     height: auto;
     margin: auto;
     top: 0;
@@ -98,7 +96,6 @@ export const Partner = () => {
                     <img src={element.image} alt={element.name} />
                   </a>
                 </div>
-                <div className="partner-name">{element.name}</div>
               </div>
             );
           })}
