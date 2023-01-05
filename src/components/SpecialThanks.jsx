@@ -2,6 +2,7 @@ import styled from "styled-components";
 import twitter from "../img/twitter.png";
 
 const SpecialThanksStyle = styled.div`
+  background-color: #383838;
   padding-top: 85px;
   padding-bottom: 85px;
   .member {
@@ -11,6 +12,13 @@ const SpecialThanksStyle = styled.div`
     margin: auto;
     max-width: 940px;
     row-gap: 20px;
+  }
+  .member-name {
+    font-size: 20px;
+    height: 30px;
+  }
+  .twitter-image-container {
+    margin: 10px auto;
   }
   .twitter-image-container img {
     height: 40px;
@@ -27,7 +35,7 @@ export const SpecialThanks = () => {
     },
     {
       id: 1,
-      name: "脇田mg",
+      name: "脇田悠哉",
       twitter: "https://twitter.com/ohtaproinfo",
     },
     {
@@ -65,12 +73,12 @@ export const SpecialThanks = () => {
   return (
     <SpecialThanksStyle>
       <div className="special-thanks">
-        <h2>Special Thanks</h2>
+        <h2>SPECIAL THANKS</h2>
         <div className="member">
           {memberContent.map((e) => {
             return (
               <div className="member-each" id={e.id}>
-                <div>{e.name}</div>
+                <div className="member-name">{e.name}</div>
                 <div className="twitter-image-container">
                   {e.twitter !== "" && (
                     <a href={e.twitter} target="_blank" rel="noreferrer">

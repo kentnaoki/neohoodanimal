@@ -6,6 +6,7 @@ import { Statement } from "./Statement";
 import { Partner } from "./Partner";
 import { TopPage } from "./TopPage";
 import { SpecialThanks } from "./SpecialThanks";
+import { Footer } from "./Footer";
 
 const ContentStyle = styled.div`
   margin: 0 auto;
@@ -24,9 +25,10 @@ export const Home = () => {
         <About></About>
         <Statement></Statement>
         <Roadmap></Roadmap>
-        <Partner></Partner>
         <SpecialThanks></SpecialThanks>
+        <Partner></Partner>
       </ContentStyle>
+      <Footer></Footer>
     </div>
   );
 };

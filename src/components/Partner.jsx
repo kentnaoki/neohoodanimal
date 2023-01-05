@@ -4,7 +4,6 @@ import MarkDoor from "../img/MarkDoor.jpg";
 import Pines from "../img/PINES.png";
 
 const PartnerStyle = styled.div`
-  background-color: #383838;
   padding-top: 85px;
   padding-bottom: 85px;
 
@@ -17,11 +16,27 @@ const PartnerStyle = styled.div`
   }
   .partner-member {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
-
-  .partner-image img {
+  .partner-image {
+    height: 150px;
     width: 230px;
+    position: relative;
+  }
+  .partner-image img {
+    position: absolute;
+    max-width: 230px;
+    max-height: 150px;
     height: auto;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
   .partner-name {
     font-size: 25px;
@@ -72,17 +87,13 @@ export const Partner = () => {
             return (
               <div className="partner-member" key={element.id}>
                 <div className="partner-image">
-                  <img src={element.image} alt={element.name} />
-                </div>
-                <div className="partner-name">{element.name}</div>
-                <div className="partner-link-container">
                   <a
                     className="partner-link"
                     href={element.website}
                     target="_blank"
                     rel="noreferrer"
                   >
-                    @
+                    <img src={element.image} alt={element.name} />
                   </a>
                 </div>
               </div>

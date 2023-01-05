@@ -68,7 +68,7 @@ export const AboutJP = () => {
             <h2 className="header2">食を改革する</h2>
             <p>
               全てのNEO HOOD
-              ANIMALは全ての人間に問おていきます。食とはなにか。その旅が始まりました。
+              ANIMALは全ての人間に問うていきます。食とは何か。その旅が始まりました。
             </p>
           </div>
         </div>
