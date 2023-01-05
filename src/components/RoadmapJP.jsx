@@ -40,6 +40,7 @@ const RoadmapStyle = styled.div`
   @media screen and (max-width: 959px) {
     .roadmap-content {
       display: block;
+      margin: auto 100px;
     }
     .roadmap-item {
       margin: 50px;
@@ -49,7 +50,22 @@ const RoadmapStyle = styled.div`
       flex: 1;
     }
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 869px) {
+    .roadmap-content {
+      margin: auto 70px;
+    }
+  }
+  @media screen and (max-width: 799px) {
+    .roadmap-content {
+      margin: auto 30px;
+    }
+  }
+  @media screen and (max-width: 699px) {
+    .roadmap-content {
+      margin: auto;
+    }
+  }
+  @media screen and (max-width: 649px) {
     .roadmap-item {
       display: block;
       margin: 50px;
