@@ -19,6 +19,7 @@ const AboutStyle = styled.div`
   }
   .about-text {
     flex: 1;
+    padding: 10px;
   }
   .p1 {
     margin-bottom: 50px;
@@ -33,6 +34,11 @@ const AboutStyle = styled.div`
     img {
       width: 350px;
     }
+    .p1,
+    .p2 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
   @media screen and (max-width: 759px) {
     .about-content {
@@ -40,6 +46,11 @@ const AboutStyle = styled.div`
     }
     .about-text {
       margin: 50px auto;
+    }
+    .p1,
+    .p2 {
+      padding-left: 0;
+      padding-right: 0;
     }
   }
   @media screen and (max-width: 480px) {
@@ -67,7 +78,7 @@ export const About = () => {
               hard-punk animals finally rised in revolt in Tokyo.
             </p>
             <h2 className="header2">Reform food industry</h2>
-            <p>
+            <p className="p2">
               Every NEO HOOD ANIMAL asks the question to human beings. What is
               food? <br></br>The journey has just started.
             </p>
