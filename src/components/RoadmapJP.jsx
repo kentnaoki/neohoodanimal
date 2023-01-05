@@ -68,7 +68,7 @@ export const RoadmapJP = () => {
     {
       id: 1,
       header: "アクセス制限",
-      text: "あなたのNFTは食べのミクスでの体験へのアクセスを許可しています。NEO HOOD ANIMALのNFTを持っていない方はアクセスを制限しております。",
+      text: "あなたのNFTはタベノミクスでの体験へのアクセスを許可しています。NEO HOOD ANIMALのNFTを持っていない方はアクセスを制限しております。",
       image: access,
     },
     {
