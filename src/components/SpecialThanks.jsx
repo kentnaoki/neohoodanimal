@@ -2,6 +2,7 @@ import styled from "styled-components";
 import twitter from "../img/twitter.png";
 
 const SpecialThanksStyle = styled.div`
+  background-color: #383838;
   padding-top: 85px;
   padding-bottom: 85px;
   .member {

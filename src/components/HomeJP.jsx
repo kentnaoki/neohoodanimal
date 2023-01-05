@@ -24,8 +24,8 @@ export const HomeJP = () => {
         <AboutJP></AboutJP>
         <StatementJP></StatementJP>
         <RoadmapJP></RoadmapJP>
-        <Partner></Partner>
         <SpecialThanks></SpecialThanks>
+        <Partner></Partner>
       </ContentStyle>
     </div>
   );

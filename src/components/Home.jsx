@@ -24,8 +24,8 @@ export const Home = () => {
         <About></About>
         <Statement></Statement>
         <Roadmap></Roadmap>
-        <Partner></Partner>
         <SpecialThanks></SpecialThanks>
+        <Partner></Partner>
       </ContentStyle>
     </div>
   );
