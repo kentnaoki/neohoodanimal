@@ -55,36 +55,36 @@ const SpecialThanksStyle = styled.div`
   }
 `;
 
-export const SpecialThanks = () => {
+export const SpecialThanksJP = () => {
   const memberContent = [
     {
       id: 0,
-      name: "Hikomaro",
+      name: "彦摩呂",
       twitter: "https://twitter.com/hikomaro_mg",
     },
     {
       id: 1,
-      name: "Yuya Wakita",
+      name: "脇田悠哉",
       twitter: "https://twitter.com/ohtaproinfo",
     },
     {
       id: 2,
-      name: "Asagi",
+      name: "あさぎ",
       twitter: "https://twitter.com/lmvle",
     },
     {
       id: 3,
-      name: "Kana Akiyama",
+      name: "秋山佳菜",
       twitter: null,
     },
     {
       id: 4,
-      name: "Zeus MD",
+      name: "MDゼウス",
       twitter: null,
     },
     {
       id: 5,
-      name: "Manchester MD",
+      name: "MDマンチェスター",
       twitter: null,
     },
     {
@@ -94,7 +94,7 @@ export const SpecialThanks = () => {
     },
     {
       id: 7,
-      name: "Matsugori",
+      name: "マツゴリ",
       twitter: "https://twitter.com/mm0218_1",
     },
   ];

@@ -5,7 +5,7 @@ import { RoadmapJP } from "./RoadmapJP";
 import { StatementJP } from "./StatementJP";
 import { Partner } from "./Partner";
 import { TopPage } from "./TopPage";
-import { SpecialThanks } from "./SpecialThanks";
+import { SpecialThanksJP } from "./SpecialThanksJP";
 import { Footer } from "./Footer";
 
 const ContentStyle = styled.div`
@@ -25,7 +25,7 @@ export const HomeJP = () => {
         <AboutJP></AboutJP>
         <StatementJP></StatementJP>
         <RoadmapJP></RoadmapJP>
-        <SpecialThanks></SpecialThanks>
+        <SpecialThanksJP></SpecialThanksJP>
         <Partner></Partner>
       </ContentStyle>
       <Footer></Footer>
