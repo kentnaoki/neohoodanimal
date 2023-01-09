@@ -2,6 +2,7 @@ import styled from "styled-components";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Mint } from "./components/Mint";
+import { MintJP } from "./components/MintJP";
 import { Home } from "./components/Home";
 import { HomeJP } from "./components/HomeJP";
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/ppp/" element={<Home />} />
             <Route path={`/ppp/mint/`} element={<Mint />} />
             <Route path={`/ppp/jp/`} element={<HomeJP />} />
+            <Route path={`/ppp/jp/mint/`} element={<MintJP />} />
           </Routes>
         </BrowserRouter>
       </div>
