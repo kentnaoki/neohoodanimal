@@ -30,10 +30,11 @@ export const Statement = () => {
         <p>
           Hikomaro is a Legendary food-reporting comedian. He is handling Web 3
           for the food and beverage industry. NEO HOOD ANIMAL are not just PFPs.
-          This NFT offers special benefits when multiple NFTs are collected and
-          destroyed. This NFT is also a special food community membership. We
-          use Web3 to reform the restaurant industry with our wonderful friends
-          with this NFT.
+          We are using the latest technology of AI to design the future animals
+          in 6051. Moreover, This NFT offers special benefits when multiple NFTs
+          are collected and destroyed. This NFT is also a special food community
+          membership. We use Web3 to reform the restaurant industry with our
+          wonderful friends with this NFT.
         </p>
       </div>
     </StatementStyle>
