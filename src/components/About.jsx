@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import dog from "../img/about_image.jpg";
+import bird from "../img/bird.jpg";
 
 const AboutStyle = styled.div`
   padding-top: 85px;
@@ -68,7 +68,7 @@ export const About = () => {
         <h2>What is NEO HOOD ANIMAL?</h2>
         <div className="about-content">
           <div className="about-image-container">
-            <img src={dog} alt="dog" />
+            <img src={bird} alt="bird" />
           </div>
           <div className="about-text">
             <h2 className="header2">Get back our food industry</h2>
