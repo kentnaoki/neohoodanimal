@@ -78,25 +78,25 @@ export const Roadmap = () => {
     {
       id: 0,
       header: "Permission for unrestricted commercial use of this IP",
-      text: "Your NFT has a permission to use the IP.",
+      text: "You're NFT has the permission to use the IP and feel free to use this for fanart.",
       image: IP,
     },
     {
       id: 1,
       header: "Exclusive access",
-      text: "Your NFT has access to Tabenomics.",
+      text: "Your NFT grants you access to the experience in Tavenomics. If you do not have a NEO HOOD ANIMAL NFT, access will be restricted.",
       image: access,
     },
     {
       id: 2,
       header: "Off-line meetings with celebrities",
-      text: "You have the right to attend a gathering of Japanese VIPs",
+      text: "You have the right to attend a gathering of Japanese VIPs.",
       image: VIP,
     },
     {
       id: 3,
       header: "Web3 support for every Japanese restaurant",
-      text: "Our mission is to bring up the food industry to Web3.",
+      text: "Our mission is to bring up the food industry to Web3. By discarding multiple NEO HOOD ANIMAL NFTs, you can receive support for Web3 from this team and also call on the famous celebrity Hikomaro.",
       image: handshake,
     },
   ];
