@@ -90,13 +90,13 @@ export const Roadmap = () => {
     {
       id: 2,
       header: "Off-line meetings with celebrities",
-      text: "You have the right to attend a gathering of Japanese VIPs",
+      text: "You have the right to attend a gathering of Japanese VIPs.",
       image: VIP,
     },
     {
       id: 3,
       header: "Web3 support for every Japanese restaurant",
-      text: "Our mission is to bring up the food industry to Web3. By discarding multiple NEO HOOD ANIMAL NFTs, you can receive support for Web3 from this team and also call on the famous celebrity Hikomaro",
+      text: "Our mission is to bring up the food industry to Web3. By discarding multiple NEO HOOD ANIMAL NFTs, you can receive support for Web3 from this team and also call on the famous celebrity Hikomaro.",
       image: handshake,
     },
   ];
