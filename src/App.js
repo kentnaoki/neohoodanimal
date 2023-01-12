@@ -27,7 +27,7 @@ function App() {
               { name: "description", content: data.description },
               { property: "og:url", content: data.url },
               { property: "og:type", content: "website" },
-              { property: "og:titel", content: "NEO HOOD ANIMAL" },
+              { property: "og:title", content: "NEO HOOD ANIMAL" },
               { property: "og:image", content: data.opgImg },
               {
                 property: "og:description",

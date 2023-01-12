@@ -2,7 +2,7 @@
   "data": {
     "info": {
       "url": "https://tabenomics.com",
-      "opgImg": "/logo.png",
+      "opgImg": "./logo.png",
       "description": "[NEO HOOD ANIMAL] NEO HOOD ANIMALは、既存の飲食業界をWeb3でアップデートします。このNFTを保有することで、特別なフードコミュニティ会員となり、様々な特典が得られます。",
       "twitterImage": "./18_NEWCOLLECTION.jpg"
     }
