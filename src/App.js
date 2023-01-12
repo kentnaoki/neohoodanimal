@@ -39,9 +39,7 @@ function App() {
               { name: "twitter:description", content: data.description },
               { name: "twitter:image", content: data.twitterImage },
             ]}
-          >
-            <meta name="og:description" content={data.description} />
-          </Helmet>
+          />
           <BrowserRouter>
             <Routes>
               <Route path="/" element={<Home />} />
