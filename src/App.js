@@ -35,6 +35,9 @@ function App() {
               },
               { name: "twitter:card", content: "summary" },
               { name: "twitter:site", content: "@Tabenomics_web3" },
+              { name: "twitter:title", content: "NEO HOOD ANIMAL" },
+              { name: "twitter:description", content: data.description },
+              { name: "twitter:image", content: data.twitterImage },
             ]}
           />
           <BrowserRouter>
