@@ -24,6 +24,7 @@ function App() {
           <Helmet
             title="NEO HOOD ANIMAL"
             meta={[
+              { name: "description", content: data.description },
               { property: "og:url", content: data.url },
               { property: "og:type", content: "website" },
               { property: "og:titel", content: "NEO HOOD ANIMAL" },
@@ -32,6 +33,8 @@ function App() {
                 property: "og:description",
                 content: data.description,
               },
+              { name: "twitter:card", content: "summary" },
+              { name: "twitter:site", content: "@Tabenomics_web3" },
             ]}
           />
           <BrowserRouter>
