@@ -18,10 +18,10 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route path="/ppp/" element={<Home />} />
-            <Route path={`/ppp/mint/`} element={<Mint />} />
-            <Route path={`/ppp/jp/`} element={<HomeJP />} />
-            <Route path={`/ppp/jp/mint/`} element={<MintJP />} />
+            <Route path="/" element={<Home />} />
+            <Route path={`/mint/`} element={<Mint />} />
+            <Route path={`/jp/`} element={<HomeJP />} />
+            <Route path={`/jp/mint/`} element={<MintJP />} />
           </Routes>
         </BrowserRouter>
       </div>

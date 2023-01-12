@@ -120,13 +120,13 @@ export const NavigationJP = () => {
           </div>
         </div>
         <div className="nav-section">
-          <a href="/ppp/jp/#about">ABOUT</a>
-          <Link to={`/ppp/jp/mint/`}>MINT</Link>
-          <a href="/ppp/jp/#statement">STATEMENT</a>
-          <a href="/ppp/jp/#roadmap">ROADMAP</a>
-          <a href="/ppp/jp/#partner">PARTNER</a>
+          <a href="/jp/#about">ABOUT</a>
+          <Link to={`/jp/mint/`}>MINT</Link>
+          <a href="/jp/#statement">STATEMENT</a>
+          <a href="/jp/#roadmap">ROADMAP</a>
+          <a href="/jp/#partner">PARTNER</a>
           <button className="button-japanese">
-            <Link to={`/ppp/`}>English</Link>
+            <Link to={`/`}>English</Link>
           </button>
         </div>
       </div>
