@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Mint } from "./components/Mint";
-import { Home } from "./components/Home";
+import { Mint } from "./components/Mint/Mint";
+import { Home } from "./components/Home/Home";
 import { useState } from "react";
 import textJson from "./components/text.json";
 
