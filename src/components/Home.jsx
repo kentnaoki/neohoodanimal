@@ -16,16 +16,19 @@ const ContentStyle = styled.div`
   }
 `;
 
-export const Home = () => {
+export const Home = (props) => {
   return (
     <div>
-      <Navigation></Navigation>
+      <Navigation
+        handleLanguage={props.handleLanguage}
+        language={props.language}
+      ></Navigation>
       <TopPage></TopPage>
       <ContentStyle>
-        <About></About>
-        <Statement></Statement>
-        <Roadmap></Roadmap>
-        <SpecialThanks></SpecialThanks>
+        <About language={props.language}></About>
+        <Statement language={props.language}></Statement>
+        <Roadmap language={props.language}></Roadmap>
+        <SpecialThanks language={props.language}></SpecialThanks>
         <Partner></Partner>
       </ContentStyle>
       <Footer></Footer>

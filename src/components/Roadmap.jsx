@@ -1,8 +1,4 @@
 import styled from "styled-components";
-import IP from "../img/IP_live.jpg";
-import VIP from "../img/VIP_live.jpg";
-import access from "../img/access_live.jpg";
-import handshake from "../img/handshake_live.jpg";
 
 const RoadmapStyle = styled.div`
   padding-top: 85px;
@@ -73,40 +69,13 @@ const RoadmapStyle = styled.div`
   }
 `;
 
-export const Roadmap = () => {
-  const roadmapContent = [
-    {
-      id: 0,
-      header: "Permission for unrestricted commercial use of this IP",
-      text: "You're NFT has the permission to use the IP and feel free to use this for fanart.",
-      image: IP,
-    },
-    {
-      id: 1,
-      header: "Exclusive access",
-      text: "Your NFT grants you access to the experience in Tavenomics. If you do not have a NEO HOOD ANIMAL NFT, access will be restricted.",
-      image: access,
-    },
-    {
-      id: 2,
-      header: "Off-line meetings with celebrities",
-      text: "You have the right to attend a gathering of Japanese VIPs.",
-      image: VIP,
-    },
-    {
-      id: 3,
-      header: "Web3 support for every Japanese restaurant",
-      text: "Our mission is to bring up the food industry to Web3. By discarding multiple NEO HOOD ANIMAL NFTs, you can receive support for Web3 from this team and also call on the famous celebrity Hikomaro.",
-      image: handshake,
-    },
-  ];
-
+export const Roadmap = (props) => {
   return (
     <RoadmapStyle>
       <div id="roadmap">
         <h2 className="header2">ROADMAP</h2>
         <div className="roadmap-content">
-          {roadmapContent.map((element) => {
+          {props.language.roadmap.map((element) => {
             return (
               <div className="roadmap-item" key={element.id}>
                 <div className="roadmap-image">

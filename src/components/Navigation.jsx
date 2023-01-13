@@ -94,7 +94,7 @@ const NavigationStyle = styled.div`
   }
 `;
 
-export const Navigation = () => {
+export const Navigation = (props) => {
   return (
     <NavigationStyle>
       <div className="nav">
@@ -125,8 +125,8 @@ export const Navigation = () => {
           <a href="/#statement">STATEMENT</a>
           <a href="/#roadmap">ROADMAP</a>
           <a href="/#partner">PARTNER</a>
-          <button className="button-japanese">
-            <Link to={`/jp/`}>日本語版</Link>
+          <button className="button-japanese" onClick={props.handleLanguage}>
+            {props.language.navigation}
           </button>
         </div>
       </div>

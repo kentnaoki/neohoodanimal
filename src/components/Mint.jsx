@@ -34,8 +34,9 @@ const MintStyle = styled.div`
     gap: 10px;
     margin: 20px auto;
   }
-  button {
+  .mint-section button {
     font-size: 20px;
+    height: 40px;
   }
   .whitelist-mint {
     margin: 10px auto;
@@ -71,8 +72,9 @@ const MintStyle = styled.div`
     .mint-section {
       display: block;
     }
-    button {
+    .mint-section button {
       margin: 10px auto;
+      font-size: 18px;
     }
   }
   @media screen and (max-width: 349px) {
@@ -82,14 +84,16 @@ const MintStyle = styled.div`
   }
 `;
 
-export const Mint = () => {
+export const Mint = (props) => {
   return (
     <MintStyle>
       <div>
-        <Navigation></Navigation>
-
+        <Navigation
+          handleLanguage={props.handleLanguage}
+          language={props.language}
+        ></Navigation>
         <div>
-          <h1>MINT NEO HOOD ANIMALS</h1>
+          <h1>{props.language.mint.title}</h1>
           <div className="content">
             <div className="mint-image">
               <video controls className="video">
@@ -98,17 +102,15 @@ export const Mint = () => {
             </div>
             <div className="mint-context">
               <div className="text">
-                <h3>
-                  NEO HOOD ANIMAL use the ERC721A implementation for our minting
-                </h3>
+                <h3>{props.language.mint.header}</h3>
               </div>
               <div className="sold-amount">????/3000</div>
               <div className="mint-section">
                 <div className="mint-eth">
-                  <button>mint-Cryptocurrency</button>
+                  <button>{props.language.mint.button1}</button>
                 </div>
                 <div className="mint-credit">
-                  <button>mint-Credit card</button>
+                  <button>{props.language.mint.button2}</button>
                 </div>
               </div>
               <div className="whitelist-mint">
