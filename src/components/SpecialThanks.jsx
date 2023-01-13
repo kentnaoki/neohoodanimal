@@ -55,56 +55,13 @@ const SpecialThanksStyle = styled.div`
   }
 `;
 
-export const SpecialThanks = () => {
-  const memberContent = [
-    {
-      id: 0,
-      name: "Hikomaro",
-      twitter: "https://twitter.com/hikomaro_mg",
-    },
-    {
-      id: 1,
-      name: "Yuya Wakita",
-      twitter: "https://twitter.com/ohtaproinfo",
-    },
-    {
-      id: 2,
-      name: "Asagi",
-      twitter: "https://twitter.com/lmvle",
-    },
-    {
-      id: 3,
-      name: "Kana Akiyama",
-      twitter: null,
-    },
-    {
-      id: 4,
-      name: "Zeus MD",
-      twitter: null,
-    },
-    {
-      id: 5,
-      name: "Manchester MD",
-      twitter: null,
-    },
-    {
-      id: 6,
-      name: "KOC",
-      twitter: null,
-    },
-    {
-      id: 7,
-      name: "Matsugori",
-      twitter: "https://twitter.com/mm0218_1",
-    },
-  ];
-
+export const SpecialThanks = (props) => {
   return (
     <SpecialThanksStyle>
       <div className="special-thanks">
-        <h2>SPECIAL THANKS</h2>
+        <h2>{props.language.specialThanks.title}</h2>
         <div className="member">
-          {memberContent.map((e) => {
+          {props.language.specialThanks.content.map((e) => {
             return (
               <div className="member-each" key={e.id}>
                 <div className="member-name">{e.name}</div>

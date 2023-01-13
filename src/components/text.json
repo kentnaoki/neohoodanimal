@@ -1,0 +1,188 @@
+{
+  "text": {
+    "en": {
+      "navigation": "日本語版",
+      "about": {
+        "title": "What is NEO HOOD ANIMAL?",
+        "header1": "Get back our food industry",
+        "p1": "In 6015, the animals who have been preyed on, discarded, and mistreated by people started to raise thier voice. Hooded hard-punk animals finally rised in revolt in Tokyo.",
+        "header2": "Reform food industry",
+        "p2": "Every NEO HOOD ANIMAL asks the question to human beings. What is food? The journey has just started."
+      },
+      "statement": {
+        "title": "STATEMENT",
+        "header": "We will update the existing food and beverage industry with Web3 and contribute to Japan",
+        "p": "Hikomaro is a Legendary food-reporting comedian. He is handling Web 3 for the food and beverage industry. NEO HOOD ANIMAL are not just PFPs. We are using the latest technology of AI to design the future animals in 6051. Moreover, This NFT offers special benefits when multiple NFTs are collected and destroyed. This NFT is also a special food community membership. We use Web3 to reform the restaurant industry with our wonderful friends with this NFT."
+      },
+      "roadmap": [
+        {
+          "id": 0,
+          "header": "Permission for unrestricted commercial use of this IP",
+          "text": "You're NFT has the permission to use the IP and feel free to use this for fanart.",
+          "image": "./image/IP_live.jpg"
+        },
+        {
+          "id": 1,
+          "header": "Exclusive access",
+          "text": "Your NFT grants you access to the experience in Tavenomics. If you do not have a NEO HOOD ANIMAL NFT, access will be restricted.",
+          "image": "./image/access_live.jpg"
+        },
+        {
+          "id": 2,
+          "header": "Off-line meetings with celebrities",
+          "text": "You have the right to attend a gathering of Japanese VIPs.",
+          "image": "./image/VIP_live.jpg"
+        },
+        {
+          "id": 3,
+          "header": "Web3 support for every Japanese restaurant",
+          "text": "Our mission is to bring up the food industry to Web3. By discarding multiple NEO HOOD ANIMAL NFTs, you can receive support for Web3 from this team and also call on the famous celebrity Hikomaro.",
+          "image": "./image/handshake_live.jpg"
+        }
+      ],
+      "specialThanks": {
+        "title": "SPECIAL THANKS",
+        "content": [
+          {
+            "id": 0,
+            "name": "Hikomaro",
+            "twitter": "https://twitter.com/hikomaro_mg"
+          },
+          {
+            "id": 1,
+            "name": "Yuya Wakita",
+            "twitter": "https://twitter.com/ohtaproinfo"
+          },
+          {
+            "id": 2,
+            "name": "Asagi",
+            "twitter": "https://twitter.com/lmvle"
+          },
+          {
+            "id": 3,
+            "name": "Kana Akiyama",
+            "twitter": null
+          },
+          {
+            "id": 4,
+            "name": "Zeus MD",
+            "twitter": null
+          },
+          {
+            "id": 5,
+            "name": "Manchester MD",
+            "twitter": null
+          },
+          {
+            "id": 6,
+            "name": "KOC",
+            "twitter": null
+          },
+          {
+            "id": 7,
+            "name": "Matsugori",
+            "twitter": "https://twitter.com/mm0218_1"
+          }
+        ]
+      },
+      "mint": {
+        "title": "MINT NEO HOOD ANIMALS",
+        "header": "NEO HOOD ANIMAL use the ERC721A implementation for our minting",
+        "button1": "mint-Cryptocurrency",
+        "button2": "mint-Credit card"
+      }
+    },
+    "jp": {
+      "navigation": "English",
+      "about": {
+        "title": "What is NEO HOOD ANIMAL?",
+        "header1": "私達の食を取り戻せ",
+        "p1": "6051年、今まで人に捕食され、廃棄され、粗末に扱われてきた動物達の中で声をあげた者達がいた。フードを被るハードパンクな動物たちがついに東京で反旗を翻す。",
+        "header2": "食を改革する",
+        "p2": "全てのNEO HOOD ANIMALは全ての人間に問うていきます。食とは何か。その旅が始まりました。"
+      },
+      "statement": {
+        "title": "STATEMENT",
+        "header": "我々は既存の飲食業界をWeb3でアップデートし、日本へ還元します",
+        "p": "彦摩呂は伝説のグルメレポーターです。彼は日本の飲食業界のためにWeb3でアップデートします。NEO HOOD ANIMALはただのPFPではありません。最新のAI技術を駆使し、6051年の未来動物をデザインしています。また、このNFTは複数枚獲得し、破棄することで素晴らしい特典を受けることが可能です。また、このNFTは特別なフードコミュニティ会員でもあります。このNFTで素晴らしい仲間たちとWeb3を用いて飲食業界を改革していきたいと考えています。"
+      },
+      "roadmap": [
+        {
+          "id": 0,
+          "header": "本IPに対する無制限の商業利用を許可",
+          "text": "あなたの所有するNFTにはIP利用の権利を所有しており、二次創作等もしていただいて問題ありません。",
+          "image": "./image/IP_live.jpg"
+        },
+        {
+          "id": 1,
+          "header": "アクセス制限",
+          "text": "あなたのNFTはタベノミクスでの体験へのアクセスを許可しています。NEO HOOD ANIMALのNFTを持っていない方はアクセスを制限しております。",
+          "image": "./image/access_live.jpg"
+        },
+        {
+          "id": 2,
+          "header": "著名人が集まるオフ会",
+          "text": "あなたは日本のVIP（芸能人/インフルエンサー/著名経営者）が集まる会に参加する権利を持っています。",
+          "image": "./image/VIP_live.jpg"
+        },
+        {
+          "id": 3,
+          "header": "日本の有名飲食店のWeb3化支援",
+          "text": "我々は既存の飲食業界をWeb3領域まで引き上げることをミッションにしており、複数枚のNEO HOOD ANIMALのNFTを破棄することで、本チームのWeb3化支援を受けることができるだけでなく、タレントの彦摩呂を呼ぶことができます。",
+          "image": "./image/handshake_live.jpg"
+        }
+      ],
+      "specialThanks": {
+        "title": "SPECIAL THANKS",
+        "content": [
+          {
+            "id": 0,
+            "name": "彦摩呂",
+            "twitter": "https://twitter.com/hikomaro_mg"
+          },
+          {
+            "id": 1,
+            "name": "脇田悠哉",
+            "twitter": "https://twitter.com/ohtaproinfo"
+          },
+          {
+            "id": 2,
+            "name": "あさぎ",
+            "twitter": "https://twitter.com/lmvle"
+          },
+          {
+            "id": 3,
+            "name": "秋山佳菜",
+            "twitter": null
+          },
+          {
+            "id": 4,
+            "name": "MDゼウス",
+            "twitter": null
+          },
+          {
+            "id": 5,
+            "name": "MDマンチェスター",
+            "twitter": null
+          },
+          {
+            "id": 6,
+            "name": "KOC",
+            "twitter": null
+          },
+          {
+            "id": 7,
+            "name": "マツゴリ",
+            "twitter": "https://twitter.com/mm0218_1"
+          }
+        ]
+      },
+      "mint": {
+        "title": "MINT NEO HOOD ANIMALS",
+        "header": "NEO HOOD ANIMALはERC721A規格を実装しております",
+        "button1": "mint-仮想通貨",
+        "button2": "mint-クレジットカード"
+      }
+    }
+  }
+}
