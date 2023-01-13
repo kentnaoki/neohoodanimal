@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import twitter from "../img/twitter.png";
 
-const SpecialThanksStyle = styled.div`
+export const SpecialThanksStyle = styled.div`
   background-color: #383838;
   padding-top: 85px;
   padding-bottom: 85px;
@@ -54,29 +53,3 @@ const SpecialThanksStyle = styled.div`
     border-radius: 30px;
   }
 `;
-
-export const SpecialThanks = (props) => {
-  return (
-    <SpecialThanksStyle>
-      <div className="special-thanks">
-        <h2>{props.language.specialThanks.title}</h2>
-        <div className="member">
-          {props.language.specialThanks.content.map((e) => {
-            return (
-              <div className="member-each" key={e.id}>
-                <div className="member-name">{e.name}</div>
-                <div className="twitter-image-container">
-                  {e.twitter !== null && (
-                    <a href={e.twitter} target="_blank" rel="noreferrer">
-                      <img src={twitter} alt="twitter"></img>
-                    </a>
-                  )}
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </SpecialThanksStyle>
-  );
-};
